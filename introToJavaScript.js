@@ -1,0 +1,1 @@
+const variableA = 10;
