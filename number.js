@@ -41,6 +41,12 @@ const sep3 = 0xa0_b0_c0
 //static number method
 console.log(Number.isNaN(NaN));
 
+const val1 = 20
+console.log(val1.toExponential);//default 10e1
+console.log(val1.toFixed(5));//used to stop/limit place after decimal
+console.log(val1.toPrecision(6));
+
+
 
 
 
