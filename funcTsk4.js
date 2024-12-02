@@ -8,3 +8,5 @@ const nameO = (first, last) => {
     
 }
 nameO("tommy", "kilmo")
+
+// Instructor's feedback: Very good!
