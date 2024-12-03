@@ -5,3 +5,12 @@ Example string : 'webmaster'
 Expected Output : 'abeemrstw'
 
 Assume punctuation and numbers symbols are not included in the passed string.*/
+
+function alphOrder(input) {
+    let ordered = input.split('').sort().join('');
+    return ordered;
+}
+console.log(alphOrder("zxytredsujhbhbjhgv"));
+console.log(alphOrder("kjhbbkjherbggjhbhhgdzzgfvgjhgb"));
+
+// Instructor's feedback: Very good!
