@@ -15,5 +15,5 @@ function lieDetect(param1, param2) {
         
     }
 }
-lieDetect(456, 456)// equal
-lieDetect("345, 345")/////param1 only needs  close " and open " will make true string
+lieDetect(456, 456)
+lieDetect("345, 345")
