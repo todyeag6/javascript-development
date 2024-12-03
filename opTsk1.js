@@ -5,7 +5,6 @@ and parenthesis, update 1 or both variables to get an output answer below.
 10 + 32 * 12 / 3*/
 
 const solveMathProblem = () => {
-    
     let originalExpression = 10 + 65 * 12 / 3;
     let adjustedExpression = 10 + (65 * (12 / -4)); 
 
