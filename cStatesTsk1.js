@@ -16,4 +16,4 @@ function lieDetect(param1, param2) {
     }
 }
 lieDetect(456, 456)// equal
-lieDetect("345, 345")/////  nothing to compare to?
+lieDetect("345, 345")/////param1 only needs  close " and open " will make true string
