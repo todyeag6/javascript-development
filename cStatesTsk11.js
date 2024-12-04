@@ -14,9 +14,9 @@ const manyDays=(month, year) => {
     }
     if(month == 2) {
         if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-            return 29;
+           console.log(29);           
           } else {
-            return 28;
+            console.log(28)
           }
         }else if (month == 4 || month==6 || month==9 || month==11) {
             console.log("month has 30 days");
@@ -24,8 +24,5 @@ const manyDays=(month, year) => {
             console.log("month has 31 days.");
             
         }
-            
-}
-console.log(manyDays(4,  2011));
-
-
+    }           
+manyDays(2, 2012);
