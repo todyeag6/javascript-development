@@ -18,3 +18,5 @@ for (let index in digits) {
 }
 console.log(addDigits(-123))
 console.log(addDigits(6745));
+
+// Instructor's feedback: Watch your indentations and spaces in your codes for easy readability and good code organization.

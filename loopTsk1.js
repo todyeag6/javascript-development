@@ -10,3 +10,5 @@ function forTsk() {
     }
     }
     forTsk()
+
+// Instructor's feedback: The instructions ask for a while loop; not a for loop.    

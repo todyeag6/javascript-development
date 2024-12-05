@@ -20,3 +20,5 @@ console.log(countDigits(10e2));
 console.log(countDigits(5847));  
 console.log(countDigits(-456));      
 console.log(countDigits(0));        
+
+// Instructor's feedback: Remove empty spaces from the codes for good code organization.    
