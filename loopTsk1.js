@@ -4,11 +4,11 @@ you use the 3 key factors for a while loop. The body of this loop should have a 
 
 your results. The result should look like the one in the image.*/
 
-function forTsk() {
-    for (let ind = 5; ind < 26; ind++) {
-        console.log(ind);
+
+    let counter = 5
+    while (counter <= 25) {
+        console.log(counter);
+        counter ++        
     }
-    }
-    forTsk()
 
 // Instructor's feedback: The instructions ask for a while loop; not a for loop.    
