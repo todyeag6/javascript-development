@@ -5,4 +5,10 @@ const iceCream = ["choc.", "straw", "neoplo", "mint", "choc. chip", "bunny track
 //     console.log(item);
     } 
 const creamContainer = iceCream.join(", ");
+
+const iceCreamCopy = iceCream
+const creamContainerCopy = creamContainer
+console.log(iceCreamCopy);
+console.log(iceCream);
 console.log(creamContainer);
+console.log(creamContainerCopy);
