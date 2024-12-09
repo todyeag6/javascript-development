@@ -12,5 +12,5 @@ function checkValueWithIndexOf(arr, value) {
 
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-checkValueWithIndexOf(numbers, 8);  // Output: 8 is present in the array.
-checkValueWithIndexOf(numbers, 30); // Output: 30 is not present in the array.
+checkValueWithIndexOf(numbers, 8);  
+checkValueWithIndexOf(numbers, 30); 
