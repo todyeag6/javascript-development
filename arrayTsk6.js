@@ -12,5 +12,5 @@ function checkValueWithIndexOf(arr, value) {
 
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-checkValueWithIndexOf(numbers, 8);  
-checkValueWithIndexOf(numbers, 30); 
+checkValueWithIndexOf(numbers, 2);  
+checkValueWithIndexOf(numbers, 34); 
