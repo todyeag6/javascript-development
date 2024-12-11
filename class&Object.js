@@ -116,12 +116,16 @@ class City {
     }
 }
 class KansaCity extends City {
-    constructor(cityFountains) {
-      super(
-
-      )     
+    constructor(population, size, economy, name, cityFountains) {
+      super(population, size, economy, name);   
      this.cityFoountains = cityFountains
-    }}
-    const Kc= new KansaCity(10000, "Fairly good", "Kansas City", 5000);
-    console.log(Kc.cityFoountains);
+    }
+    grow() {
+        console.log(this.name + "sweet");
+        
+    }
+
+}
+const Kc= new KansaCity(10000, "Fairly good", "Kansas City", 5000);
+   Kc.grow()
     
