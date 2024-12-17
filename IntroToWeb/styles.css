@@ -1,0 +1,47 @@
+/* all the styles below are for index page */
+h1 {
+    color:purple;
+}
+
+a {
+    background-color: rgb(12, 237, 16);
+}
+
+.cool-class {
+    color:blue
+
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:grey;
+
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #333;
+}
+.active {
+    background-color: #5448c8
+}
+.nav li {
+    float: left;
+}
+/* styling for page 1 adding images*/
+
+.banner{
+    /* width: 500px; */
+    height: 200px;
+    /* background-color: yellow; */
+    background-image: url("https://i.ibb.co/GckCvqJ/dog-image7.jpg");
+    background-repeat: repeat-x;
+}
