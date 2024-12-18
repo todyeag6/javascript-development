@@ -45,3 +45,23 @@ a {
     background-image: url("https://i.ibb.co/GckCvqJ/dog-image7.jpg");
     background-repeat: repeat-x;
 }
+
+/* page 2 styling*/
+
+#btn-change{
+    height: 50px;
+    width: 300px;
+}
+#box{
+    height: 320px;
+    width: 320px;
+    background-color: red;
+    border: 5px solid gray;
+    margin: 0;
+    padding: 10px;
+    display:inline-block;
+}
+.grocery_square{
+    list-style: square;
+}
+

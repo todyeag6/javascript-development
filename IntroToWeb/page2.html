@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css"/>
+</head>
+<body>
+    <!-- Horizontal Navigation -->
+    <div> 
+        <ul class = "nav"> 
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="page1.html">page 1</a></li>
+            <li><a href="#"class="active" >Page 2</a></li>
+            <li><a href="page3.html" >Page 3</a></li>
+        </ul>
+    </div>
+    <!-- below will have attributes-->
+     <div class="section_c">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur ea unde pariatur, alias perspiciatis iusto quos animi 
+            optio quisquam ut illo iste corporis eligendi nesciunt veritatis distinctio fugiat officia doloremque id. Repudiandae in quo nobis vel veniam, 
+            quas ex enim exercitationem non nesciunt sequi quod. Ipsam eos in voluptatibus nihil fugiat fugit ut dignissimos, ad, nam ullam molestias expedita 
+            adipisci recusandae numquam pariatur odio totam incidunt vitae inventore rerum dolorum, sed quos quia? Nesciunt quae, voluptate numquam iure illum 
+            necessitatibus totam molestias, dolorum aspernatur odio dicta quo? D
+            
+        </p>
+        <h3>My Grocery List</h3>
+        <ul class = "grocery_list" id="grocery"> 
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+            <li>lunch meat</li>
+            <li>cheese</li>
+            <li>cereal</li>
+
+        </ul>
+        <img src="https://i.ibb.co/GckCvqJ/dog-image7.jpg"
+         alt="BlackDog"/>
+
+         <button id="btn-change" onclick="changelist()">change
+            List</button>
+
+            <h2>link to sports</h2>
+            <a href="https://www.espn.com" target="_blank"> ESPN</a> <!--instructs to open in new windows-->
+     </div>
+
+     <div id="box"></div>
+    <script>
+        function changelist() {
+            document.getElementById("grocery").classList.toggle
+            ("grocery_square");
+        }
+
+        const divBox = document.getElementById("box");
+        console.log(divBox.offsetWidth);
+    </script>
+</body>
+
+</html>
